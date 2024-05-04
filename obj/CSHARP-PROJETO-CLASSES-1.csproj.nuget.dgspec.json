@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\CSHARP-PROJETO-CLASSES-1\\CSHARP-PROJETO-CLASSES-1.csproj": {}
+    "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\GerenciadorCarros\\CSHARP-PROJETO-CLASSES-1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\CSHARP-PROJETO-CLASSES-1\\CSHARP-PROJETO-CLASSES-1.csproj": {
+    "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\GerenciadorCarros\\CSHARP-PROJETO-CLASSES-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\CSHARP-PROJETO-CLASSES-1\\CSHARP-PROJETO-CLASSES-1.csproj",
+        "projectUniqueName": "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\GerenciadorCarros\\CSHARP-PROJETO-CLASSES-1.csproj",
         "projectName": "CSHARP-PROJETO-CLASSES-1",
-        "projectPath": "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\CSHARP-PROJETO-CLASSES-1\\CSHARP-PROJETO-CLASSES-1.csproj",
+        "projectPath": "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\GerenciadorCarros\\CSHARP-PROJETO-CLASSES-1.csproj",
         "packagesPath": "C:\\Users\\netoz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\CSHARP-PROJETO-CLASSES-1\\obj\\",
+        "outputPath": "C:\\Users\\netoz\\Desktop\\Projetos\\C#\\GerenciadorCarros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\netoz\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.AI.OpenAI": {
+              "target": "Package",
+              "version": "[1.0.0-beta.16, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

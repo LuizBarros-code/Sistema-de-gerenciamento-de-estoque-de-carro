@@ -1,3 +1,4 @@
+namespace GERENCIADORCARROS.Modelos{
 class Fabricante {
     private string _nome = "";
     private int _anodecriacao;
@@ -56,3 +57,4 @@ class Fabricante {
 
 
     }
+}

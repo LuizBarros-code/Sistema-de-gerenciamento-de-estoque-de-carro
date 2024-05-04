@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSHARP-PROJETO-CLASSES-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71ecf5ee2efbab6c0ec0a5addc12323ec1d03e04")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSHARP-PROJETO-CLASSES-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSHARP-PROJETO-CLASSES-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

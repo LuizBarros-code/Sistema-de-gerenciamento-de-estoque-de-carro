@@ -1,6 +1,5 @@
-using System.Dynamic;
-using System.Security.Cryptography;
 
+namespace GERENCIADORCARROS.Modelos{
 class Carro{
     private string _fabricante = "";
     private string _modelo = "";
@@ -59,4 +58,5 @@ class Carro{
         }
     }
     public void DescricaoDetalhada() => Console.WriteLine($"Carro da {Fabricante}, Modelo {Modelo}, Ano: {AnoDoCarro}, Quantidade em estoque: {Estoque}");
+}
 }
